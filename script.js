@@ -47,9 +47,4 @@ $(document).ready(function () {
     backSpeed: 60,
     loop: true,
   });
-
-  document.getElementById("msg").addEventListener("click", myFunction);
-  function myFunction() {
-    document.getElementById("msg").innerHTML = "Sent!";
-  }
 });
